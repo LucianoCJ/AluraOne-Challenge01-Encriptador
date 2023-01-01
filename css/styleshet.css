@@ -1,0 +1,317 @@
+body{
+    
+    background: #E5E5E5;
+    margin:0;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+/* Cuadro de ingreso de texo*/
+.text-input{
+    
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 180px;
+    top: 120px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #0A3871;
+    background: #E5E5E5;
+    border: 0;
+    outline: none;
+
+}
+#divImgen{
+  position: relative;
+}
+#img{
+    margin: auto;
+}
+/*Circulo de la información o logo*/
+.imgInfo{
+    position: absolute;
+    
+    left: 120px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #495057;
+}
+/*Configuración  del texto de información importante y logo*/
+.label-info{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 470px;
+}
+
+.info{
+    width: 400px;
+    height: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color:red;
+    opacity: 0.8;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 100px;
+    top: 500px;
+}
+
+#btn-encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    padding: 24px;
+    gap:8px;
+    
+
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    cursor:pointer;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn{
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    
+    color: #FFFFFF;
+
+    flex:none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+/*Posición del boton 2 Desencriptar*/
+#btn-desencriptar{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap:8px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+/*Descripción del boton 2*/
+.btn2{
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+/* Caja de texto resultado*/
+#cajaR{
+    position: absolute;
+    width: 400px;
+    height: 580px;
+    left: 870px;
+    top: 20px;
+    justify-content: center;
+    justify-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.88);
+    border-radius: 32px;
+}
+/* Texto dentro del cuadro a copiar*/
+#divImagen .texto1{
+    width: 336px;
+    height: 58px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    text-align: center;
+    
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: auto;
+
+}
+/* Texto dentro del cuadro a copiar*/
+#divImagen .texto2{
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    color: #495057;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: auto;
+}
+/*Texto encriptado o desencriptado*/
+#msg{
+    visibility: hidden;
+    position: absolute;
+    width: 336px;
+    height: 400px;
+    left: 30px;
+    top: 40px;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    border: 0;
+    outline: none;
+
+    color: #495057;
+}
+
+#btn-copy{
+    visibility: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 35px;
+    top: 480px;
+    cursor: pointer;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.btn3{
+    width: 288px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+    text-align: center;
+    color: #0A3871;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/*Footer*/
+footer{
+    
+    border-top: 2px solid rgba(0, 0, 0, 0.24);
+    position:absolute;
+    font-family: 'Press Star 2p', cursive ;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    font-size: 18px;
+    bottom: 0;
+    text-align: center;
+}
+
