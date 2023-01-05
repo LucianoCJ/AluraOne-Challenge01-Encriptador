@@ -26,5 +26,7 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 **Extras:**
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
 
+Este proyecto fue realizado para el Challenge de ALURA by Oracle Enero 2023. ✔
+
 - Twitter [@JosQboqbo](https://twitter.com/JosQboqbo)
 - Linkedin [Jose Luciano](https://www.linkedin.com/in/luciano-cj/)
