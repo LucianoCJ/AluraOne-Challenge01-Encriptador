@@ -349,7 +349,7 @@ footer{
         box-sizing: border-box;
     }
     body{
-        background-color:deepskyblue ;
+        /*background-color:deepskyblue ;*/
         position: relative;
         width: 375px;
         height: 933px;
