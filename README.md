@@ -1,5 +1,5 @@
 # Challenge Encriptador de texto con JavaScript
-Encriptador de texto desarrollado en HTML, CSS y JavaScript el primer Challenge del proyecto One de Oracle+Alura LATAM.  Link del proyecto desplegado: https://lucianocj.github.io/AluraOne-Challenge01-Encriptador/ 
+Encriptador de texto desarrollado en HTML, CSS y JavaScript el primer Challenge del proyecto One de Oracle+Alura LATAM. Proyecto #OneNextEducation por #AluraLatam apoyado por #OracleLink del proyecto desplegado: https://lucianocj.github.io/AluraOne-Challenge01-Encriptador/ 
 
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
